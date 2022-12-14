@@ -4,12 +4,12 @@
 /* test the environment of compilation    */
 /******************************************/
 #include "tp_env.h"
-int main(int argc,char *argv[])
+int main()
 /* ** argc: Nombre d'arguments */
 /* ** argv: Valeur des arguments */
 {
   printf("--------- Test environment of execution for Practical exercises of Numerical Algorithmics ---------\n\n");
-  printf("The exponantial value is e = %f \n",M_E);
+ // printf("The exponantial value is e = %f \n",M_E);
   printf("The maximum single precision value from values.h is maxfloat = %e \n",MAXFLOAT);
   printf("The maximum single precision value from float.h is flt_max = %e \n",FLT_MAX);
   printf("The maximum double precision value from float.h is dbl_max = %e \n",DBL_MAX);
